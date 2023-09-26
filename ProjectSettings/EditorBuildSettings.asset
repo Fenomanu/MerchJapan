@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Init.unity
+    guid: a3a325ca6d9928e4ba249d98fca1b438
+  - enabled: 1
+    path: Assets/Scenes/MainMenu.unity
+    guid: 3fc8acdd13e6c734bafef6554d6fdbcd
+  - enabled: 1
+    path: Assets/Scenes/Products/Stickers.unity
+    guid: 693799de73d61ba4e8d44f8287c63223
+  - enabled: 1
+    path: Assets/Scenes/Products/Prints.unity
+    guid: 968798b255de79e47b844b9cc41db1f9
+  - enabled: 1
+    path: Assets/Scenes/Products/PopSockets.unity
+    guid: 1f2c73aea082359458043aefabfa3718
+  - enabled: 1
+    path: Assets/Scenes/Products/KeyChains.unity
+    guid: f39f9f01b366ac94b90499fe45958fe5
+  - enabled: 1
+    path: Assets/Scenes/Features/List.unity
+    guid: 73140c8b9ee2a334daebd7e25bebc246
+  - enabled: 1
+    path: Assets/Scenes/Features/Prices.unity
+    guid: 6d728ae585d75b3459d36658f20d4760
+  - enabled: 1
+    path: Assets/Scenes/Features/Add.unity
+    guid: e9459b9adf529e145ac98f2447fa761e
+  - enabled: 1
+    path: Assets/Scenes/Features/New/Sagas.unity
+    guid: 69a6ec9d9d6ea6d4d9740195a0281705
+  - enabled: 1
+    path: Assets/Scenes/Features/New/Product.unity
+    guid: e0615d106303e514f9d4bd3a67664c01
+  m_configObjects: {}
