@@ -48,5 +48,6 @@ public class HistoryLoading : MonoBehaviour
             Instantiate(hDividerPrefab, content).SetDivider(cart.time, cart.price);
         }
         yield return null;
+        scroll.normalizedPosition = new Vector2(0, 0);
     }
 }

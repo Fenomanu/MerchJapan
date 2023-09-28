@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.UI;
+using System.Linq;
 
 public class GenericImageLoading : MonoBehaviour
 {
@@ -114,7 +115,7 @@ public class GenericImageLoading : MonoBehaviour
         DropDown sagaT;
         OpenDropAnim o;
         Image i;
-        foreach (int saga in productsBySaga.Keys)
+        foreach (int saga in productsBySaga.Keys.OrderBy(x => x))
         {
             // Create Saga button
             sagaT = Instantiate(sagaDropdownPrefab, content);

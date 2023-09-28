@@ -96,6 +96,10 @@ public class CartItemManager : MonoBehaviour
                 CartManager.Instance.SubAmmount(ammount - newAmmount, groupid);
             }
             ammount = newAmmount;
+            if(ammount == 0)
+            {
+                EraseProductButton();
+            }
         }
         catch (Exception)
         {

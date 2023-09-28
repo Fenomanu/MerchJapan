@@ -22,7 +22,7 @@ public static class CartDB
 
     public static void StoreCartRegister(Cart cart)
     {
-        string path = Path.Combine(FolderNames.history, string.Join("_", cart.id.ToString(), cart.time.value.ToString(), ".json"));
+        string path = Path.Combine(FolderNames.history, string.Join("_", cart.time.value.ToString(), cart.id.ToString(), ".json"));
         JSONStorage.SaveToJSONObj<Cart>(cart, path);
     }
     public static List<Cart> LoadCartRegister()

@@ -118,6 +118,7 @@ public class CartManager : MonoBehaviour
         prodAmmount = new Dictionary<int, CartItemManager>();
         CartDB.ClearTempCart();
         SetPrice(0);
+        cartAdder.Play("Hidden");
     }
 
     public void AddProductToCart(int pid, Sprite sprite)
@@ -140,14 +141,7 @@ public class CartManager : MonoBehaviour
         price = p;
         priceField.text = p.ToString();
     }
-    public void AddPrice(float p)
-    {
 
-    }
-    public void SubPrice(float p)
-    {
-
-    }
     public void AddAmmount(int a, int gid)
     {
         price += a*GenericImageLoading.Instance.GetGroupPrice(gid);
@@ -164,6 +158,10 @@ public class CartManager : MonoBehaviour
     {
         SubAmmount(ammount, gid);
         prodAmmount.Remove(id);
+        if(prodAmmount.Count == 0)
+        {
+            cartAdder.Play("Hidden");
+        }
         return true;
     }
 
