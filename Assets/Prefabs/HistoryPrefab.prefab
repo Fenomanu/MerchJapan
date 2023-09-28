@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 485851899089696589}
   - component: {fileID: 485851899089696577}
-  - component: {fileID: 485851899089696595}
   - component: {fileID: 485851899089696604}
   m_Layer: 5
   m_Name: HistoryPrefab
@@ -51,24 +50,6 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 485851899089696588}
   m_CullTransparentMesh: 1
---- !u!114 &485851899089696595
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 485851899089696588}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: bda90ddb4ae644e41a4da2e5b91d687b, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  id: 0
-  prodImage: {fileID: 0}
-  nameText: {fileID: 5843742773109094460}
-  groupText: {fileID: 7891534090450331418}
-  ammountField: {fileID: 0}
-  loaded: 0
 --- !u!114 &485851899089696604
 MonoBehaviour:
   m_ObjectHideFlags: 0
